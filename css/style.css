@@ -1,0 +1,447 @@
+body{
+    background-color:#e1f0f8;
+    font-family: "Arial";
+    padding:0;
+    margin:0;
+}
+
+.mainContain {
+    max-width: 1145px;
+    width:95%;
+    margin: auto;
+    margin-top:0;
+}
+
+.container{
+    background-color: white;
+    border-radius: 5px;
+}
+
+h3 {
+    margin:0;
+    padding:0;
+    margin-bottom:20px;
+    color:#484848;
+    font-size:26px;
+    font-weight: normal;
+}
+
+.btn{
+    display:block;
+    text-align: center;
+    color:white;
+    background-color: #eb5825;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+.window, .whyUse, .comments .container {
+    padding:25px;
+    padding-bottom:90px;
+}
+
+.whyUse, .comments {
+    margin-top:30px;
+    font-size:14px;
+}
+
+/*TOP*/
+.topHeader {
+    padding: 18px 25px;
+    color:#484745;
+}
+
+.topHeader p {
+    float:right;
+    padding-top:40px;
+}
+
+.topHeader p span{
+    float:right;
+}
+
+.time {
+    font-size: 16px;
+}
+
+.phone {
+    font-size: 31px;
+    padding-top:3px;
+}
+
+.topHeader .linkCost{
+    margin-right:80px;
+    padding-top:65px;
+}
+
+.linkCost a{
+    color:#f36240;
+    font-size: 23px;
+}
+
+/*NAV*/
+nav ul{
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+
+nav ul li {
+    display:inline-block;
+    width:224px;
+    margin:0;
+    padding:0;
+}
+
+nav ul li a{
+    font-size:24px;
+    display:block;
+    color:#5f6973;
+    text-decoration: none;
+    text-align: center;
+    width:97%;
+    padding:15px 5px;
+    padding-top:12px;
+    border-right: 1px solid #5f6973;
+}
+
+nav ul li a:active, nav ul li a.active{
+    color:white;
+    background:#7bc3d5;
+}
+
+nav ul li:last-child a{
+    border:none;
+}
+
+/*MAIN*/
+main {
+    color:#4b4b4b;
+}
+
+.mainH {
+    margin-top:35px;
+    margin-bottom:30px;
+}
+
+.mainH h1{
+    font-size: 64px;
+    font-weight: normal;
+    margin:0;
+    padding:0;
+}
+
+.mainH h2{
+    font-size: 26px;
+    font-weight: normal;
+    margin-top:7px;
+}
+
+/*SIDE*/
+.sideBar {
+    color:#8a8a8a;
+    width:216px;
+    padding-left:23px;
+    border-radius: 5px;
+    float:left;
+    margin-right:27px;
+    margin-bottom: 27px;
+}
+
+.sideBar ul{
+    padding:13px 0;
+    padding-bottom:30px;
+    margin:0;
+}
+
+.sideBar ul li{
+    list-style: none;
+    padding:8px 0;
+}
+
+.sideBar ul li a{
+    color:inherit;
+}
+
+.sideBar ul li a:hover,.sideBar ul li a:active{
+    color:#eb5825;
+}
+
+.sideBar h3 {
+    font-size:20px;
+    color:#4b4b4b;
+    padding-top:25px;
+    margin:0;
+}
+
+/*MAIN CONTENT*/
+.mainContent {
+    max-width:878px;
+    width:76%;
+    float:left;
+}
+
+/*WINDOW*/
+.winLeft, .winRight {
+    display:inline-block;
+    vertical-align: top;
+}
+
+.winLeft {
+    padding-left: 57px;
+    margin-top:7px;
+}
+
+.winLeft p{
+    color:#a6a6a6;
+    font-size:18px;
+    width:198px;
+    text-align: center;
+    margin-top:40px;
+}
+
+.winRight {
+    padding-left: 95px;
+
+}
+
+.winRight ul{
+    padding-left: 20px;
+}
+
+.winRight ul li{
+    color:#eb5825;
+    padding-bottom:7px;
+}
+
+.winRight ul li span{
+    color:#484848;
+    font-size:14px;
+}
+
+.winRight h4 {
+    font-weight: normal;
+    font-size:20px;
+    margin:0;
+    padding:0;
+    margin-top:40px;
+}
+
+.winRight p {
+    font-size:14px;
+    color:#484848;
+    max-width:350px;
+}
+
+.btnCalc {
+    max-width:310px;
+    font-size:18px;
+    padding:10px 0;
+    margin-top:50px;
+    margin-bottom:10px;
+}
+
+.orConsult {
+    font-size: 14px;
+    color:#8a8a8a;
+}
+
+/*COLORS*/
+.clr {
+    display:inline-block;
+    width:61px;
+    height:59px;
+    margin-top:10px;
+    background: url('../img/colors.png') no-repeat;
+}
+
+.active{
+    background: url('../img/check.png') no-repeat, url('../img/colors.png') no-repeat;
+}
+
+.clr1 {
+    background-position: 0 center;
+}
+.clr1.active{
+    background-position: center, 0 center;
+}
+
+.clr2 {
+    background-position: -68px center;
+}
+.clr2.active{
+    background-position: center, -68px center;
+}
+
+.clr3 {
+    background-position: -137px center;
+}
+.clr3.active{
+    background-position: center, -137px center;
+}
+
+.clr4 {
+    background-position: -206px center;
+}
+.clr4.active{
+    background-position: center, -206px center;
+}
+
+.clr5 {
+    background-position: -275px center;
+}
+.clr5.active{
+    background-position: center, -275px center;
+}
+
+.clr6 {
+    background-position: -343px center;
+}
+.clr6.active{
+    background-position: center, -343px center;
+}
+
+.clr7 {
+    background-position: -412px center;
+}
+.clr7.active{
+    background-position: center, -412px center;
+}
+
+
+/*WHYUSE*/
+.whyUse {
+    padding-right:45px;
+}
+
+.why1{
+    margin-bottom:23px;
+}
+
+.why2{
+    margin-bottom:33px;
+}
+
+.why1:before, .why2:before {
+    content:'';
+    display:block;
+    float:left;
+    width:55px;
+    height:60px;
+    margin-right:40px;
+}
+
+.why1:before{
+    background: url('../img/why1.png') no-repeat top;
+}
+
+.why2:before{
+    background: url('../img/why2.png') no-repeat center;
+}
+
+.whyUse ol{
+    margin:0;
+    padding:0;
+    list-style: none;
+    margin-bottom:-43px;
+}
+
+.whyUse ol li{
+    margin-bottom:10px;
+}
+
+
+.whyUse ol:before{
+    content:'';
+    display:block;
+    width:34px;
+    height:138px;
+    background: url('../img/whyNums.png') no-repeat center;
+    float:left;
+    margin-right:15px;
+}
+
+/*COMMENTS*/
+.comments .container{
+    margin-bottom:95px;
+    margin-top:10px;
+}
+
+.moreComm {
+    display:inline;
+    margin:auto;
+    float:right;
+    color:#eb5825;
+    padding-top:8px;
+    font-size:16px;
+}
+
+.comments div h3 {
+    display:inline;
+}
+
+.commName {
+    font-size: 16px;
+    margin-bottom:0;
+    margin-top:0;
+}
+
+.commInfo {
+    color:#8a8a8a;
+    margin-top:0;
+}
+
+.more{
+   display:none; 
+}
+
+.commMore {
+    color:#eb5825;
+    text-decoration: none;
+    border-bottom: 1px dashed #eb5825;
+}
+
+.commMore:before{
+    content: '';
+    display:block;
+    float:left;
+    width:15px;
+    height:15px;
+    margin-right:3px;
+    margin-top:2px;
+    background: url('../img/down.png') no-repeat;
+    transition:all 0.3s ease;
+}
+
+.commMore.up:before{
+    transform:rotate(180deg); 
+}
+
+.btnLComm {
+    width:160px;
+    font-size:16px;
+    padding:12px 0;
+    margin-top:35px;
+    margin-bottom:-50px;
+}
+
+/*SOME MEDIA FOR BETTER LOOK*/
+@media only screen and (max-width:650px){
+    .mainH h1{
+        font-size: 45px;
+    }
+    .mainContain, .mainContent {
+        width:99%;
+        margin:auto;
+    }
+    .window, .whyUse, .comments .container {
+        padding:5px;
+    }
+    .winLeft, .winRight {
+        padding-left: 2px;
+    }
+    
+    .whyUse ol::before{
+        display:none;
+    }
+}
